@@ -12,6 +12,18 @@ body {
     font-family: 'Roboto', sans-serif;
     color: var(--light-gray);        
 }
+h1, h2, h3, p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+img {
+    display: block;
+}
 .container {
     width: 1200px;
     margin: 0 auto;
@@ -19,8 +31,13 @@ body {
 }
 
 /* header */
-.header {    
+.header {
+    border: 1px solid #ECECEC;    
     background-color: var(--white-color);
+}
+.header-container {
+    display: flex;
+    align-items: center;
 }
 
 /* logo */
@@ -33,9 +50,7 @@ body {
     width: 145px;
     color: var(--logo-light-blue);
     text-decoration: none;
-    display: block;
-    margin-left: 215px;
-    margin-top: 24px;    
+    margin-right: 93px;    
 }
 .studio-logo {
     color: var(--logo-black);
@@ -44,14 +59,6 @@ body {
 /* header_navigation */
 .list-item {
     list-style: none;
-}
-.navi-list {
-    display: flex;
-    width: 281px;
-    margin-top: 32px;
-    margin-bottom: 32px;
-    margin-left: 93px;
-    align-items: center;
 }
 .navi-item {      
     font-weight: 500;

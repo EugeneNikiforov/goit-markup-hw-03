@@ -1,0 +1,205 @@
+:root {    
+    --background-footer: #2F303A;
+    --letter-color: #212121;
+    --primary-color: #757575;   
+    --selection-color: #2196F3;
+    --white-color: #FFF;
+}
+body {    
+    font-family: 'Roboto', sans-serif;
+    color: var(--primary-color);
+    width: 1600px;
+    margin: 0 auto;
+}
+
+/* header */
+.header {    
+    background-color: var(--white-color);
+}
+
+/* logo */
+.web-logo {
+    --black-text-color: #000;
+    --logo-text-color: #2196F3;
+    font-family: 'Raleway';    
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    width: 145px;
+    color: var(--logo-text-color);
+    text-decoration: none;    
+}
+.studio-logo {
+    color: var(--black-text-color);
+}
+
+/* header_navigation */
+.list-item {
+    list-style: none;
+}
+.navi-item {      
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--letter-color);
+    text-decoration: none;
+}
+.navi-item:hover, 
+.navi-item:focus {
+    color: var(--selection-color);
+}
+.navi-page {
+    color: var(--selection-color);
+} 
+
+/* header_contacts */
+.contact-link {    
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--primary-color);
+    text-decoration: none;
+}
+.contact-link:hover, .contact-link:focus {
+    color: var(--selection-color);
+}
+
+/* main_content */
+.main {
+    background-color: var(--background-footer);
+}
+.main-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--white-color);
+}
+.button {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    color: var(--white-color);
+    background-color: var(--selection-color);
+    cursor: pointer;
+}
+
+/* description */
+.section {
+    background-color: var(--white-color);
+} 
+.title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--letter-color);
+}
+.features p {    
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+.title-section {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--letter-color);
+}
+
+/* crew */
+.section-crew {
+    background-color: #F5F4FA;
+}
+.title-crew {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--letter-color);
+}
+.crew-list p {
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+/* contacts */
+.footer {
+    background-color: var(--background-footer);
+}
+.footer-logo {
+    color: var(--white-color);
+}
+.adress-list {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
+.adress-place {
+    color: var(--white-color);
+}
+.adress-list:hover, 
+.adress-list:focus, 
+.adress-place:hover, 
+.adress-place:focus {
+    color: var(--selection-color);
+}
+
+/* portfolio */
+
+/* button list */
+.menu-button {
+    font-family: 'Roboto', sans-serif;        
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+    letter-spacing: 0.03em;
+    border-radius: 4px;
+    color: var(--letter-color);
+    background-color: #F5F4FA;
+    cursor: pointer;
+}
+.menu-button:hover, .menu-button:focus {
+    background-color: var(--selection-color);    
+    color: var(--white-color);
+}
+
+/* project list */
+.project-title {    
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--letter-color);
+}
+.project-list p {    
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: var(--primary-color);
+}
+.project-link {
+    text-decoration: none;
+}

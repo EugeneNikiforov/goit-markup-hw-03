@@ -149,11 +149,11 @@ img {
 
 /* description */
 .section {
-    background-color: var(--white-color);
-}
-.desc-container {
     padding-top: 94px;
     padding-bottom: 94px;
+}
+.features-container {
+    background-color: var(--white-color);
 }
 .features {
     display: flex;
@@ -185,9 +185,6 @@ img {
 }
 
 /* occupation */
-.occupation-container {
-    padding-bottom: 94px;
-}
 .title-occupation {
     margin-bottom: 50px;
 }
@@ -201,13 +198,9 @@ img {
     margin-right: 30px;
 }
 
-/* crew */
-.section-crew {
+/* crew */ 
+.crew-section {
     background-color: var(--bgnd-light-gray);
-}
-.crew-container {
-    padding-top: 94px;
-    padding-bottom: 94px;
 }
 .title-crew-list {
     margin-bottom: 50px;
@@ -283,10 +276,6 @@ img {
 /* portfolio */
 
 /* button list */
-.portfolio-container {
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
 .header-hidden {
     position: absolute;
     width: 1px;
